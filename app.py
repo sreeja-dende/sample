@@ -12,7 +12,7 @@ def add_two_numbers():
         total = num1 + num2
         print(f"The sum of {num1} and {num2} is {total}.")
     except ValueError:
-        print("Please enter valid nos")
+        print("Please enter valid numbers:::")
 
 def main():
     greet_user()
